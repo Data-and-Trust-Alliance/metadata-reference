@@ -24,25 +24,27 @@ To perform the previous steps and install the JAR file into your local Maven rep
 
 ## Included Files
 
-- AddressLine.java
--- Class to describe a single address entry for a given Organization.
-- ConfidentialityClassification.java
--- Class to describe confidentiality classifications entries.
-- IntendedDataUse.java
--- Class to describe intended data uses for the provided dataset.
-- Method.java
--- Class to describe methods used for generating the dataset.
-- PrivacyEnhancingTechnology.java
--- Class to capture privacy-related customizations performed on the dataset prior to distribution.
-- UniqueEntity.java
--- Generic class providing uniqueness capabilities.
-- Concept.java
--- Class to describe an aggregation pattern of code, system location, and description for various abstract concepts in the Data Provenance Standards.
-- DataFormat.java
--- Class to capture details about the data format of the provided dataset.
-- Location.java
--- Class to describe geolocation information for processing and storage requirements of the dataset.
-- Organization.java
--- Class to describe a single authority entity related to the dataset.
-- UniqueConcept.java
--- Class providing uniqueness capabilities to concepts.
+- pom.xml
+    - Primary Maven file used for building project.
+- src/main/java/org/data_and_trust_alliance/metadata/AddressLine.java
+    - Class to describe a single address entry for a given Organization.
+- src/main/java/org/data_and_trust_alliance/metadata/Concept.java
+    - Class to describe an aggregation pattern of code, system location, and description for various abstract concepts in the Data Provenance Standards.
+- src/main/java/org/data_and_trust_alliance/metadata/ConfidentialityClassification.java
+    - Class to describe confidentiality classifications entries.
+- src/main/java/org/data_and_trust_alliance/metadata/DataFormat.java
+    - Class to capture details about the data format of the provided dataset.
+- src/main/java/org/data_and_trust_alliance/metadata/IntendedDataUse.java
+    - Class to describe intended data uses for the provided dataset.
+- src/main/java/org/data_and_trust_alliance/metadata/Location.java
+    - Class to describe geolocation information for processing and storage requirements of the dataset.
+- src/main/java/org/data_and_trust_alliance/metadata/Method.java
+    - Class to describe methods used for generating the dataset.
+- src/main/java/org/data_and_trust_alliance/metadata/Organization.java
+    - Class to describe a single authority entity related to the dataset.
+- src/main/java/org/data_and_trust_alliance/metadata/PrivacyEnhancingTechnology.java
+    - Class to capture privacy-related customizations performed on the dataset prior to distribution.
+- src/main/java/org/data_and_trust_alliance/metadata/UniqueConcept.java
+    - Class providing uniqueness capabilities to concepts.
+- src/main/java/org/data_and_trust_alliance/metadata/UniqueEntity.java
+    - Generic class providing uniqueness capabilities.
